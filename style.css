@@ -1,0 +1,84 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+ul{
+    list-style-type: none;
+    margin: 15px 10px;
+    padding: 0;
+}
+.search{
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+header a{
+    display: inline-block;
+    padding: 4px 8px;
+    color: darkslategray;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+img{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+input[type=text]{
+    width: 450px;
+    border-radius: 50px;
+    border: 1px solid #d8d8d8;
+    padding: 12px 20px;
+    background: white;
+}
+
+input[type=text]:hover{
+    box-shadow: 2px 2px 5px #d8d8d8;
+}
+
+input[type=submit]{
+    background-color: #f3f3f3;
+    color: #5F6368;
+    border: none;
+    padding: 9px 20px;
+    margin: 20px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type=submit]:hover{
+    border: 1px #c0c0c0 solid;
+    color: black;
+
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 40px;
+    background: #f3f3f3;
+}
+
+.footer a{
+    display: inline-block;
+    margin: 0px 8px 10px 10px;
+    color: darkslategray;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
